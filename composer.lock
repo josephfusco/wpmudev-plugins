@@ -1,0 +1,2288 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f17998a89f0597caf9d26ac9d30f1711",
+    "packages": [
+        {
+            "name": "buddypress/buddypress",
+            "version": "3.1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress",
+                "reference": "/tags/3.1.0/@1887777"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "BuddyPress Community",
+                    "homepage": "https://buddypress.org/about/"
+                }
+            ],
+            "description": "BuddyPress adds community features to WordPress. Member Profiles, Activity Streams, Direct Messaging, Notifications, and more!",
+            "homepage": "https://buddypress.org",
+            "keywords": [
+                "activity",
+                "community",
+                "friends",
+                "groups",
+                "messaging",
+                "notifications",
+                "profiles",
+                "social network"
+            ],
+            "time": "2018-06-05T19:38:14+00:00"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "049797d727261bf27f2690430d935067710049c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/049797d727261bf27f2690430d935067710049c2",
+                "reference": "049797d727261bf27f2690430d935067710049c2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "^4.8.36"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2017-12-29T09:13:20+00:00"
+        },
+        {
+            "name": "wpmudev/ab-theme-testing",
+            "version": "1.3.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1040151192_ab-theme-testing-1.3.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "A/B Theme Testing",
+            "homepage": "https://premium.wpmudev.org/project/ab-theme-testing/"
+        },
+        {
+            "name": "wpmudev/ad-sharing",
+            "version": "1.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1948410589_ad-sharing-1.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Ad Sharing",
+            "homepage": "https://premium.wpmudev.org/project/ad-sharing/"
+        },
+        {
+            "name": "wpmudev/ad-widget",
+            "version": "2.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1709190059_ad-widget-2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Ad Widget",
+            "homepage": "https://premium.wpmudev.org/project/ad-widget/"
+        },
+        {
+            "name": "wpmudev/add-existing-users",
+            "version": "1.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1682760289_add-existing-users.1.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Add Existing Users",
+            "homepage": "https://premium.wpmudev.org/project/add-existing-users/"
+        },
+        {
+            "name": "wpmudev/add-new-users",
+            "version": "1.0.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/506619555_add-new-users-1.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Add New Users",
+            "homepage": "https://premium.wpmudev.org/project/add-new-users/"
+        },
+        {
+            "name": "wpmudev/admin-ads",
+            "version": "1.1.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1692573816_admin-ads-1.1.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Admin Ads",
+            "homepage": "https://premium.wpmudev.org/project/admin-ads/"
+        },
+        {
+            "name": "wpmudev/admin-panel-tips",
+            "version": "1.0.7.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1176554511_tips-1.0.7.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Admin Panel Tips",
+            "homepage": "https://premium.wpmudev.org/project/admin-panel-tips/"
+        },
+        {
+            "name": "wpmudev/anti-splog",
+            "version": "2.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/707402970_anti-splog-2.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Anti-Splog",
+            "homepage": "https://premium.wpmudev.org/project/anti-splog/"
+        },
+        {
+            "name": "wpmudev/appointments-plus",
+            "version": "2.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1593700843_appointments-2.4.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Appointments+",
+            "homepage": "https://premium.wpmudev.org/project/appointments-plus/"
+        },
+        {
+            "name": "wpmudev/autoblog",
+            "version": "4.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1435812255_autoblog-4.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Autoblog",
+            "homepage": "https://premium.wpmudev.org/project/autoblog/"
+        },
+        {
+            "name": "wpmudev/automatic-follow-up-emails-for-new-users",
+            "version": "2.4.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1287905791_automessage-2.4.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Automessage",
+            "homepage": "https://premium.wpmudev.org/project/automatic-follow-up-emails-for-new-users/"
+        },
+        {
+            "name": "wpmudev/avatars",
+            "version": "4.1.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/131988312_avatars-4.1.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Avatars",
+            "homepage": "https://premium.wpmudev.org/project/avatars/"
+        },
+        {
+            "name": "wpmudev/batch-create",
+            "version": "1.5.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1284570607_batch-create-1.5.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Batch Create",
+            "homepage": "https://premium.wpmudev.org/project/batch-create/"
+        },
+        {
+            "name": "wpmudev/blog-activity",
+            "version": "1.1.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/764810588_blog-activity.1.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Blog Activity",
+            "homepage": "https://premium.wpmudev.org/project/blog-activity/"
+        },
+        {
+            "name": "wpmudev/blog-and-user-creator",
+            "version": "2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1188514486_blogs-and-users-2.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Blog &amp; User Creator",
+            "homepage": "https://premium.wpmudev.org/project/blog-and-user-creator/"
+        },
+        {
+            "name": "wpmudev/blogs-directory",
+            "version": "9.9.9.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1454515925_blogs-directory-1.0.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Blogs Directory",
+            "homepage": "https://premium.wpmudev.org/project/blogs-directory/"
+        },
+        {
+            "name": "wpmudev/buddypress-group-calendar",
+            "version": "1.4.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1939205812_bp-group-calendar-1.4.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "buddypress/buddypress": "*",
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "BuddyPress Group Calendar",
+            "homepage": "https://premium.wpmudev.org/project/buddypress-group-calendar/"
+        },
+        {
+            "name": "wpmudev/buddypress-group-email",
+            "version": "1.0.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/844655442_bp-group-email-1.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "buddypress/buddypress": "*",
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "BuddyPress Group Email",
+            "homepage": "https://premium.wpmudev.org/project/buddypress-group-email/"
+        },
+        {
+            "name": "wpmudev/buddypress-hide-widgets",
+            "version": "1.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/544079100_bp-hide-widgets-1.0.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "buddypress/buddypress": "*",
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "BuddyPress Hide Widgets",
+            "homepage": "https://premium.wpmudev.org/project/buddypress-hide-widgets/"
+        },
+        {
+            "name": "wpmudev/cloner",
+            "version": "1.7.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1909547003_cloner-1.7.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Cloner",
+            "homepage": "https://premium.wpmudev.org/project/cloner/"
+        },
+        {
+            "name": "wpmudev/comment-form-text",
+            "version": "1.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/874104730_comment-form-text-1.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Comment Form Text",
+            "homepage": "https://premium.wpmudev.org/project/comment-form-text/"
+        },
+        {
+            "name": "wpmudev/comments-control",
+            "version": "1.0.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/771814730_comments-control-1.0.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Comments Control",
+            "homepage": "https://premium.wpmudev.org/project/comments-control/"
+        },
+        {
+            "name": "wpmudev/comments-plus",
+            "version": "1.6.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1026295206_comments-plus-1.6.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Comments +",
+            "homepage": "https://premium.wpmudev.org/project/comments-plus/"
+        },
+        {
+            "name": "wpmudev/contact-widget",
+            "version": "2.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/2046491488_contact-form-2.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Contact Widget",
+            "homepage": "https://premium.wpmudev.org/project/contact-widget/"
+        },
+        {
+            "name": "wpmudev/content-monitor",
+            "version": "1.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/50811195_content-monitor-1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Content Monitor",
+            "homepage": "https://premium.wpmudev.org/project/content-monitor/"
+        },
+        {
+            "name": "wpmudev/coursepress-pro",
+            "version": "2.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/2132596482_coursepress-pro-2.2.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "CoursePress Pro",
+            "homepage": "https://premium.wpmudev.org/project/coursepress-pro/"
+        },
+        {
+            "name": "wpmudev/custom-google-search",
+            "version": "1.2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/80974271_custom-google-search.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Custom Google Search",
+            "homepage": "https://premium.wpmudev.org/project/custom-google-search/"
+        },
+        {
+            "name": "wpmudev/custom-sidebars-pro",
+            "version": "3.1.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/20426490_custom-sidebars-pro-3.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Custom Sidebars Pro",
+            "homepage": "https://premium.wpmudev.org/project/custom-sidebars-pro/"
+        },
+        {
+            "name": "wpmudev/custompress",
+            "version": "1.3.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/2089436643_custompress-1.3.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "CustomPress",
+            "homepage": "https://premium.wpmudev.org/project/custompress/"
+        },
+        {
+            "name": "wpmudev/dashboard-feeds",
+            "version": "2.0.4.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1566634258_dashboard-feeds-2.0.4.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Dashboard Feeds",
+            "homepage": "https://premium.wpmudev.org/project/dashboard-feeds/"
+        },
+        {
+            "name": "wpmudev/dashboard-widget-order",
+            "version": "2.0.4.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1083555797_dashboard-widgets-order-2.0.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Dashboard Widget Order",
+            "homepage": "https://premium.wpmudev.org/project/dashboard-widget-order/"
+        },
+        {
+            "name": "wpmudev/default-theme",
+            "version": "1.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1166049598_default-theme-1.0.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Default Theme",
+            "homepage": "https://premium.wpmudev.org/project/default-theme/"
+        },
+        {
+            "name": "wpmudev/domain-mapping",
+            "version": "4.4.3.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/423831677_domain-mapping-4.4.3.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Domain Mapping",
+            "homepage": "https://premium.wpmudev.org/project/domain-mapping/"
+        },
+        {
+            "name": "wpmudev/e-commerce",
+            "version": "3.2.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1021992472_marketpress-3.2.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "MarketPress eCommerce",
+            "homepage": "https://premium.wpmudev.org/project/e-commerce/"
+        },
+        {
+            "name": "wpmudev/e-newsletter",
+            "version": "2.7.4.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1221073572_e-newsletter-2.7.4.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "e-Newsletter",
+            "homepage": "https://premium.wpmudev.org/project/e-newsletter/"
+        },
+        {
+            "name": "wpmudev/events-plus",
+            "version": "1.9.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1899802498_events-and-bookings-1.9.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Events +",
+            "homepage": "https://premium.wpmudev.org/project/events-plus/"
+        },
+        {
+            "name": "wpmudev/floating-social",
+            "version": "1.7.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/381083657_sharebox-1.7.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Floating Social",
+            "homepage": "https://premium.wpmudev.org/project/floating-social/"
+        },
+        {
+            "name": "wpmudev/footer-content",
+            "version": "1.0.2.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1730209077_footer-content-1.0.2.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Footer Content",
+            "homepage": "https://premium.wpmudev.org/project/footer-content/"
+        },
+        {
+            "name": "wpmudev/forminator-pro",
+            "version": "1.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1024058110_forminator-1.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Forminator Pro",
+            "homepage": "https://premium.wpmudev.org/project/forminator-pro/"
+        },
+        {
+            "name": "wpmudev/friends",
+            "version": "1.3.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1697121016_friends-1.3.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Friends",
+            "homepage": "https://premium.wpmudev.org/project/friends/"
+        },
+        {
+            "name": "wpmudev/global-site-tags",
+            "version": "3.1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1547491632_global-site-tags-3.1.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Global Site Tags",
+            "homepage": "https://premium.wpmudev.org/project/global-site-tags/"
+        },
+        {
+            "name": "wpmudev/google-analytics-for-wordpress-mu-sitewide-and-single-blog-solution",
+            "version": "3.1.7.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1353529005_google-analytics-async-3.1.7.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Google Analytics +",
+            "homepage": "https://premium.wpmudev.org/project/google-analytics-for-wordpress-mu-sitewide-and-single-blog-solution/"
+        },
+        {
+            "name": "wpmudev/hustle",
+            "version": "3.0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1348006205_hustle-3.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Hustle",
+            "homepage": "https://premium.wpmudev.org/project/hustle/"
+        },
+        {
+            "name": "wpmudev/in-post-ads",
+            "version": "1.5.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/774475744_custom-ads-1.5.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "In Post Ads",
+            "homepage": "https://premium.wpmudev.org/project/in-post-ads/"
+        },
+        {
+            "name": "wpmudev/invite",
+            "version": "1.1.3.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/315078324_invite-1.1.3.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Invite",
+            "homepage": "https://premium.wpmudev.org/project/invite/"
+        },
+        {
+            "name": "wpmudev/jobs-and-experts",
+            "version": "1.0.2.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1358644144_jobs-experts-1.0.2.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Jobs &amp; Experts",
+            "homepage": "https://premium.wpmudev.org/project/jobs-and-experts/"
+        },
+        {
+            "name": "wpmudev/live-stream-widget",
+            "version": "1.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/361749987_live-stream-widget-1.0.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Live Stream Widget",
+            "homepage": "https://premium.wpmudev.org/project/live-stream-widget/"
+        },
+        {
+            "name": "wpmudev/lock-posts",
+            "version": "1.1.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/967011476_lock-posts-1.1.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Lock Posts",
+            "homepage": "https://premium.wpmudev.org/project/lock-posts/"
+        },
+        {
+            "name": "wpmudev/log-in-message",
+            "version": "1.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/646515588_login-mods-1.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Login Message",
+            "homepage": "https://premium.wpmudev.org/project/log-in-message/"
+        },
+        {
+            "name": "wpmudev/login-redirect",
+            "version": "1.0.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/561225094_login-redirect-1.0.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Login Redirect",
+            "homepage": "https://premium.wpmudev.org/project/login-redirect/"
+        },
+        {
+            "name": "wpmudev/logout-redirect",
+            "version": "1.1.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/448631928_logout-redirect-1.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Logout Redirect",
+            "homepage": "https://premium.wpmudev.org/project/logout-redirect/"
+        },
+        {
+            "name": "wpmudev/mailchimp-newsletter-integration",
+            "version": "1.9.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1813854169_mailchimp-sync-1.9.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "MailChimp Integration",
+            "homepage": "https://premium.wpmudev.org/project/mailchimp-newsletter-integration/"
+        },
+        {
+            "name": "wpmudev/mass-email-sender",
+            "version": "1.7.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1771798857_mass-mailer-1.7.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Mass Email Sender",
+            "homepage": "https://premium.wpmudev.org/project/mass-email-sender/"
+        },
+        {
+            "name": "wpmudev/media-embeds-for-buddypress-activity",
+            "version": "1.6.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/2146350352_buddypress-activity-plus-1.6.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "buddypress/buddypress": "*",
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "BuddyPress Activity +",
+            "homepage": "https://premium.wpmudev.org/project/media-embeds-for-buddypress-activity/"
+        },
+        {
+            "name": "wpmudev/members-directory",
+            "version": "1.0.9.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1048117807_members-directory-1.0.9.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Members Directory",
+            "homepage": "https://premium.wpmudev.org/project/members-directory/"
+        },
+        {
+            "name": "wpmudev/membership",
+            "version": "1.1.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1631580542_membership2-pro-1.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Membership 2 Pro",
+            "homepage": "https://premium.wpmudev.org/project/membership/"
+        },
+        {
+            "name": "wpmudev/messaging",
+            "version": "1.1.6.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1090001925_messaging-1.1.6.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Messaging",
+            "homepage": "https://premium.wpmudev.org/project/messaging/"
+        },
+        {
+            "name": "wpmudev/moderation",
+            "version": "1.0.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1293717555_moderation-1.0.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Moderation",
+            "homepage": "https://premium.wpmudev.org/project/moderation/"
+        },
+        {
+            "name": "wpmudev/multi-domains",
+            "version": "1.3.4.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/785929082_multi-domains-1.3.4.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Multi-Domains",
+            "homepage": "https://premium.wpmudev.org/project/multi-domains/"
+        },
+        {
+            "name": "wpmudev/multisite-content-copier",
+            "version": "1.5.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/489971995_multisite-content-copier-1.5.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Multisite Content Copier",
+            "homepage": "https://premium.wpmudev.org/project/multisite-content-copier/"
+        },
+        {
+            "name": "wpmudev/multisite-theme-manager",
+            "version": "1.1.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/94958110_multisite-theme-manager-1.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Multisite Theme Manager",
+            "homepage": "https://premium.wpmudev.org/project/multisite-theme-manager/"
+        },
+        {
+            "name": "wpmudev/new-blog-template",
+            "version": "2.8.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1075630292_blogtemplates-2.8.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "New Blog Templates",
+            "homepage": "https://premium.wpmudev.org/project/new-blog-template/"
+        },
+        {
+            "name": "wpmudev/password-protect-selected-content",
+            "version": "1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/375978747_protect-selected-content-1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Password Protect",
+            "homepage": "https://premium.wpmudev.org/project/password-protect-selected-content/"
+        },
+        {
+            "name": "wpmudev/pay-per-view",
+            "version": "1.4.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1827801858_pay-per-view-1.4.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Pay Per View",
+            "homepage": "https://premium.wpmudev.org/project/pay-per-view/"
+        },
+        {
+            "name": "wpmudev/pay-with-a-like",
+            "version": "2.0.1.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/918365553_pay-with-a-like-2.0.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Pay with a Like",
+            "homepage": "https://premium.wpmudev.org/project/pay-with-a-like/"
+        },
+        {
+            "name": "wpmudev/post-indexer",
+            "version": "3.0.6.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/968704357_post-indexer-3.0.6.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Post Indexer",
+            "homepage": "https://premium.wpmudev.org/project/post-indexer/"
+        },
+        {
+            "name": "wpmudev/post-voting-plugin",
+            "version": "2.2.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/19251007_wpmudev-post-voting-plugin-2.2.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Post Voting Plugin",
+            "homepage": "https://premium.wpmudev.org/project/post-voting-plugin/"
+        },
+        {
+            "name": "wpmudev/pretty-plugins",
+            "version": "1.5.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/2068766725_pretty-plugins-1.5.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Pretty Plugins",
+            "homepage": "https://premium.wpmudev.org/project/pretty-plugins/"
+        },
+        {
+            "name": "wpmudev/private-messaging",
+            "version": "1.0.1.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1348109991_private-messaging-1.0.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Private Messaging",
+            "homepage": "https://premium.wpmudev.org/project/private-messaging/"
+        },
+        {
+            "name": "wpmudev/pro-sites",
+            "version": "3.5.9.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/3647157_pro-sites-3.5.9.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Pro Sites",
+            "homepage": "https://premium.wpmudev.org/project/pro-sites/"
+        },
+        {
+            "name": "wpmudev/quick-status",
+            "version": "1.8.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1778392241_quick-status-1.8.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Status",
+            "homepage": "https://premium.wpmudev.org/project/quick-status/"
+        },
+        {
+            "name": "wpmudev/random-theme-on-signup",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1291518829_random-theme-1.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Random Theme",
+            "homepage": "https://premium.wpmudev.org/project/random-theme-on-signup/"
+        },
+        {
+            "name": "wpmudev/reader",
+            "version": "1.2.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/377043893_reader-1.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Reader",
+            "homepage": "https://premium.wpmudev.org/project/reader/"
+        },
+        {
+            "name": "wpmudev/recent-comments",
+            "version": "1.0.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/456783945_recent-comments-1.0.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Recent Comments",
+            "homepage": "https://premium.wpmudev.org/project/recent-comments/"
+        },
+        {
+            "name": "wpmudev/recent-custom-posts-type-widget",
+            "version": "2.1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/226988640_recent_custom_post_type.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Recent Custom Posts",
+            "homepage": "https://premium.wpmudev.org/project/recent-custom-posts-type-widget/"
+        },
+        {
+            "name": "wpmudev/recent-global-author-comments-feed",
+            "version": "1.0.3.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/950855096_recent-global-author-comments-feed-1.0.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Global Author Comments Feed",
+            "homepage": "https://premium.wpmudev.org/project/recent-global-author-comments-feed/"
+        },
+        {
+            "name": "wpmudev/recent-global-author-posts-feed",
+            "version": "3.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/985780799_recent-global-author-posts-feed-3.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Global Author Posts Feed",
+            "homepage": "https://premium.wpmudev.org/project/recent-global-author-posts-feed/"
+        },
+        {
+            "name": "wpmudev/recent-global-comments-feed",
+            "version": "1.0.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/742437586_recent-global-comments-feed-1.0.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Recent Global Comments",
+            "homepage": "https://premium.wpmudev.org/project/recent-global-comments-feed/"
+        },
+        {
+            "name": "wpmudev/recent-global-posts-feed",
+            "version": "3.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1434190426_recent-global-posts-feed-3.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Recent Global Posts Feed",
+            "homepage": "https://premium.wpmudev.org/project/recent-global-posts-feed/"
+        },
+        {
+            "name": "wpmudev/recent-global-posts-widget",
+            "version": "3.0.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/775034571_recent-global-posts-widget-3.0.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Recent Global Posts Widget",
+            "homepage": "https://premium.wpmudev.org/project/recent-global-posts-widget/"
+        },
+        {
+            "name": "wpmudev/recent-posts",
+            "version": "3",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/274537630_recent-posts-3.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Recent Global Posts",
+            "homepage": "https://premium.wpmudev.org/project/recent-posts/"
+        },
+        {
+            "name": "wpmudev/remove-email-verification-from-signup",
+            "version": "2.4.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1363611416_remove-email-verification-2.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Remove Email Verification",
+            "homepage": "https://premium.wpmudev.org/project/remove-email-verification-from-signup/"
+        },
+        {
+            "name": "wpmudev/reports",
+            "version": "1.0.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1953141701_reports-1.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Reports",
+            "homepage": "https://premium.wpmudev.org/project/reports/"
+        },
+        {
+            "name": "wpmudev/scheduled-content",
+            "version": "1.2.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/646916328_scheduled-content-1.2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Schedule Selected Content",
+            "homepage": "https://premium.wpmudev.org/project/scheduled-content/"
+        },
+        {
+            "name": "wpmudev/select-language-at-signup",
+            "version": "1.0.5.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1492740257_signup-language-1.0.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Select Language at Signup",
+            "homepage": "https://premium.wpmudev.org/project/select-language-at-signup/"
+        },
+        {
+            "name": "wpmudev/set-blog-description-on-blog-creation",
+            "version": "1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1272603561_signup-blog-description-1.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Set Blog Description",
+            "homepage": "https://premium.wpmudev.org/project/set-blog-description-on-blog-creation/"
+        },
+        {
+            "name": "wpmudev/set-password-on-wordpress-mu-blog-creation",
+            "version": "1.1.2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/578790472_signup-password-1.1.2.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Set Password",
+            "homepage": "https://premium.wpmudev.org/project/set-password-on-wordpress-mu-blog-creation/"
+        },
+        {
+            "name": "wpmudev/signup-code",
+            "version": "1.0.3.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1426731110_signup-code-1.0.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Signup Code",
+            "homepage": "https://premium.wpmudev.org/project/signup-code/"
+        },
+        {
+            "name": "wpmudev/simple-ads",
+            "version": "1.0.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1018320953_simple-ads-1.0.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Simple Ads",
+            "homepage": "https://premium.wpmudev.org/project/simple-ads/"
+        },
+        {
+            "name": "wpmudev/site-categories",
+            "version": "1.0.9.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1981577063_site-categories-1.0.9.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Site Categories",
+            "homepage": "https://premium.wpmudev.org/project/site-categories/"
+        },
+        {
+            "name": "wpmudev/sitemaps-and-seo-wordpress-mu-style",
+            "version": "1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1807730414_simple-sitemaps.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Multisite Sitemaps",
+            "homepage": "https://premium.wpmudev.org/project/sitemaps-and-seo-wordpress-mu-style/"
+        },
+        {
+            "name": "wpmudev/sitewide-privacy-options-for-wordpress-mu",
+            "version": "1.1.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/717290748_sitewide-privacy-options-1.1.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Multisite Privacy",
+            "homepage": "https://premium.wpmudev.org/project/sitewide-privacy-options-for-wordpress-mu/"
+        },
+        {
+            "name": "wpmudev/slide-in",
+            "version": "1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/10153387_slide-in.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Slide In",
+            "homepage": "https://premium.wpmudev.org/project/slide-in/"
+        },
+        {
+            "name": "wpmudev/smartcrawl-wordpress-seo",
+            "version": "2.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/962146655_wpmu-dev-seo-2.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "SmartCrawl Pro",
+            "homepage": "https://premium.wpmudev.org/project/smartcrawl-wordpress-seo/"
+        },
+        {
+            "name": "wpmudev/snapshot",
+            "version": "3.1.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/359859823_snapshot-3.1.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Snapshot Pro",
+            "homepage": "https://premium.wpmudev.org/project/snapshot/"
+        },
+        {
+            "name": "wpmudev/social-marketing",
+            "version": "1.2.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/2126855391_social-marketing-1.2.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Social Marketing",
+            "homepage": "https://premium.wpmudev.org/project/social-marketing/"
+        },
+        {
+            "name": "wpmudev/subscribe-by-email",
+            "version": "3.5.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/2009162917_subscribe-by-email-3.5.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Subscribe by Email",
+            "homepage": "https://premium.wpmudev.org/project/subscribe-by-email/"
+        },
+        {
+            "name": "wpmudev/support-system",
+            "version": "2.1.9.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1477865201_incsub-support-2.1.9.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Support System",
+            "homepage": "https://premium.wpmudev.org/project/support-system/"
+        },
+        {
+            "name": "wpmudev/terms-of-service",
+            "version": "1.3.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1296628211_signup-tos-1.3.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Terms of Service",
+            "homepage": "https://premium.wpmudev.org/project/terms-of-service/"
+        },
+        {
+            "name": "wpmudev/the-pop-over-plugin",
+            "version": "4.8.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/601371801_popup-pro-4.8.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "PopUp Pro",
+            "homepage": "https://premium.wpmudev.org/project/the-pop-over-plugin/"
+        },
+        {
+            "name": "wpmudev/ultimate-branding",
+            "version": "2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/2091182500_ultimate-branding-2.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Ultimate Branding",
+            "homepage": "https://premium.wpmudev.org/project/ultimate-branding/"
+        },
+        {
+            "name": "wpmudev/unbranded-video-tutorials",
+            "version": "1.5.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1218786227_wpmudev-videos-1.5.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Integrated Video Tutorials",
+            "homepage": "https://premium.wpmudev.org/project/unbranded-video-tutorials/"
+        },
+        {
+            "name": "wpmudev/update-services",
+            "version": "1.0.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/2027448575_update-services-1.0.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Update Services",
+            "homepage": "https://premium.wpmudev.org/project/update-services/"
+        },
+        {
+            "name": "wpmudev/user-reports",
+            "version": "1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/856380356_user-reports-1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "User Reports",
+            "homepage": "https://premium.wpmudev.org/project/user-reports/"
+        },
+        {
+            "name": "wpmudev/users-widget",
+            "version": "1.0.1.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/2048708954_users-widget-1.0.1.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Users Widget",
+            "homepage": "https://premium.wpmudev.org/project/users-widget/"
+        },
+        {
+            "name": "wpmudev/wordpress-google-maps-plugin",
+            "version": "2.9.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/198838846_google-maps-2.9.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Google Maps",
+            "homepage": "https://premium.wpmudev.org/project/wordpress-google-maps-plugin/"
+        },
+        {
+            "name": "wpmudev/wordpress-mu-affiliate",
+            "version": "3.1.6.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/100934126_affiliate-3.1.6.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Affiliates",
+            "homepage": "https://premium.wpmudev.org/project/wordpress-mu-affiliate/"
+        },
+        {
+            "name": "wpmudev/wordpress-user-synchronization",
+            "version": "1.1.5.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1120016849_user-sync-1.1.5.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WordPress User Sync",
+            "homepage": "https://premium.wpmudev.org/project/wordpress-user-synchronization/"
+        },
+        {
+            "name": "wpmudev/wp-defender",
+            "version": "1.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/53301251_wp-defender-1.9.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Defender",
+            "homepage": "https://premium.wpmudev.org/project/wp-defender/"
+        },
+        {
+            "name": "wpmudev/wp-hummingbird",
+            "version": "1.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/1802443030_wp-hummingbird-1.9.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Hummingbird",
+            "homepage": "https://premium.wpmudev.org/project/wp-hummingbird/"
+        },
+        {
+            "name": "wpmudev/wp-smush-pro",
+            "version": "2.7.9.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://premium.wpmudev.org/download/528945408_wp-smush-pro-2.7.9.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "1.*"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Smush Pro",
+            "homepage": "https://premium.wpmudev.org/project/wp-smush-pro/"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
