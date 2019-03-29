@@ -1,3 +1,4 @@
 vendor/
 wp-content/
 auth.json
+composer.lock
