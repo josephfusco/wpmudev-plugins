@@ -62,7 +62,6 @@
     "wpmudev/mailchimp-newsletter-integration": "*",
     "wpmudev/mass-email-sender": "*",
     "wpmudev/media-embeds-for-buddypress-activity": "*",
-    "wpmudev/members-directory": "*",
     "wpmudev/membership": "*",
     "wpmudev/messaging": "*",
     "wpmudev/moderation": "*",
